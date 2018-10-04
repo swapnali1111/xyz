@@ -1,0 +1,23 @@
+l=[]
+for i in range(4):
+    n=int(input("enter number"))
+    l.append(n)
+      
+print(l)
+
+m=[]
+for j in range(4):
+      a=int(input("enter number"))
+      m.append(a)
+
+print(m)
+c=l+m
+
+print(c)
+for i in range(8):
+    for j in range(8):
+        if c[i]<c[j]:
+         t=c[i]
+         c[i]=c[j]
+         c[j]=t
+print("set1:",l,"set2:",m,"merging:",c)      
