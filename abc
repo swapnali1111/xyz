@@ -4,7 +4,7 @@ for i in range(4):
     l.append(n)
       
 print(l)
-
+print()
 m=[]
 for j in range(4):
       a=int(input("enter number"))
